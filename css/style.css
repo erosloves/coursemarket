@@ -80,7 +80,6 @@ img {
 	padding: 0 50px 0 50px;
 }
 .title_heading {
-	font-family: "Inter";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 36px;
@@ -111,21 +110,21 @@ img {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 38px;
 	color: #d1e8e2;
 }
 .title_menu_1_1 {
-	background-image: url(../img/Rectangle\ 8.png);
+	background-image: url(https://u2809311.isp.regruhosting.ru/images/Rectangle%208.png);
 }
 .title_menu_1_2 {
-	background-image: url(../img/Rectangle\ 7.png);
+	background-image: url(https://u2809311.isp.regruhosting.ru/images/Rectangle%207.png);
 }
 .title_menu_2_1 {
-	background-image: url(../img/Rectangle\ 5.png);
+	background-image: url(https://u2809311.isp.regruhosting.ru/images/Rectangle%205.png);
 }
 .title_menu_2_2 {
-	background-image: url(../img/Rectangle\ 6.png);
+	background-image: url(https://u2809311.isp.regruhosting.ru/images/Rectangle%206.png);
 }
 
 .info_bar {
@@ -145,11 +144,10 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
 	color: #fff;
 	background-color: #116466;
 	margin: 10px 400px;
-	height: 400px;
+	height: 350px;
 	padding: 90px 100px;
 	font-family: "Inter";
 	font-style: normal;
@@ -158,15 +156,17 @@ img {
 	line-height: 39px;
 	text-align: center;
 	border-radius: 50px;
+	width: 100%;
 }
 
 .info_bar_block_1,
 .info_bar_block_2,
 .info_bar_block_3 {
 	display: flex;
-	width: 360px;
+	width: 33%;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-around;
 }
 .info_bar_block_1 img,
 .info_bar_block_2 img,
